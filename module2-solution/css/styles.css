@@ -9,25 +9,48 @@ h1 {
 
 .foodbox {
   border: 1px solid black;
-  background-color: #8a8f96;
+  background-color: #d3d3d3;
   margin-right: 20px;
   margin-left: 20px;
   font-family: Helvetica;
   margin-top: 1em;
   margin-bottom: 1em;
+  padding: 3px;
+  position: relative;
 }
 
 .foodname {
-  float: right;
-  width: 100px;
-  background-color: red;
+  position: absolute;
+  top: 0px;
+  right: 0px;
   text-align: right;
   font-size: 1.5em;
+  padding: 3px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#chicken {
+  background-color: #ef6e5d;
+}
+
+#beef {
+  background-color: #e01a00;
+}
+
+#sushi {
+  background-color: #b2ff99;
 }
 
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
+}
+
+p {
+  padding-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 /********** Large devices only **********/
