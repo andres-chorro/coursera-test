@@ -1,4 +1,9 @@
 #tall-box {
     background-color: #bfbfbf;
-    height: 700px;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+#tall-box p{
+    margin: 15px;
 }
