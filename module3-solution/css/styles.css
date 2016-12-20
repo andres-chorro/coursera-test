@@ -1,0 +1,8 @@
+#tall-box {
+    background-color: #bfbfbf;
+    height: 1000px;
+}
+
+#tall-box p {
+    margin: 15px;
+}
