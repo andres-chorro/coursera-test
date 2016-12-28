@@ -64,4 +64,4 @@ for (/* fill in parts of the 'for' loop to loop over names array */) {
     // helloSpeaker.xxxx
   }
 }
-})()
+})();
